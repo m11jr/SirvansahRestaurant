@@ -1,0 +1,229 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0px;
+}
+
+body{
+    background-color: #ece8d9;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: #ece8d9;
+}
+
+.nav-container{
+    height: 80px;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav-container .img{
+    padding-left: 10%;
+}
+
+.nav-container .UlItems{
+    padding-right: 12%;
+}
+.nav-container .img img{
+    width: 80px;
+}
+
+.nav-container .UlItems ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    list-style-type: none;
+    height: 80px;
+}
+.nav-container .UlItems a{
+    color: #494949;
+    text-decoration: none;
+    height: 80px;
+}
+
+
+.header{
+    padding-top: 80px;
+    height: 750px;
+    
+
+    
+}
+.header-container{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/SirvansahFoodBright.png);
+    background-position: center;
+    background-size: cover;
+  
+}
+
+
+ .header-nameinfo h1 , .header-nameinfo p{
+    text-align: center;
+    color: #fffdf6;
+}
+.header-nameinfo p{
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5em;
+  color: #ece8d9;
+  
+}
+.header-nameinfo h1{
+    font-family: "Cardo", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4.5em;
+    color: #ece8d9;
+}
+.button {
+    text-align: center;
+    padding-top: 30px;
+}
+.header-nameinfo button{
+    width: 100px;
+    height: 40px;
+    color: #494949;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ece8d9;
+
+}
+
+.about-us{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus-container{
+   /* display: grid;
+    grid-template-columns: 1fr 2fr; */
+    color: #494949;
+    width: 60%;
+    
+}
+/*.about-us .aboutus-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us .aboutus-photo img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+*/
+.about-us h2{
+    font-family: "Cardo", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.about-us p{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.map{
+    margin-top: 50px;
+}
+.map h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Cardo", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+}
+.map h3{
+    font-family: "Cardo", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+}
+.map a{
+    color: #494949;
+    text-decoration: none;
+    font-size: 2.2em;
+}
+.map p{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+#Reminder{
+    font-size: 1em;
+    font-style: italic;
+    
+}
+.map-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; column-gap: 25px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border-left: 2px solid #494949;
+}
+.mapself{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fotogallery{
+    height: 250px;
+
+}
+.fotogallery h3{
+    font-family: "Cardo", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.gallery-container img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.gallery-container .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50px;
+    background-color: #faf6e9;
+    margin-top: 50px;
+}
