@@ -142,6 +142,7 @@ nav{
 .map{
     margin-top: 50px;
 }
+
 .map h2{
     text-align: center;
     margin-bottom: 30px;
@@ -226,4 +227,19 @@ footer{
     height: 50px;
     background-color: #faf6e9;
     margin-top: 50px;
+}
+@media (min-width:576px) and (max-width:768px) {
+    #Reminder{
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width:576px) {
+    .MapWidth{
+        width: 150px;
+        height: 150px;
+    }
+    #Reminder{
+        font-size: 0.65em;
+    }
 }
