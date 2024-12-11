@@ -18,26 +18,26 @@
 
 
     <nav>
-<div class="nav-container">
-
-<div class="img"> <img src="./assets/SirvansahLogo.png" alt="SirvansahLogo"></div>
-<div class="UlItems"> 
-    <ul>
-     <!--   <li><a href="">Menu</a></li>
-        <li><a href="">Haqqimizda</a></li>
-        <li><a href="">Elaqe</a></li>
--->
-
-<a href="#"> <ul> Menu</ul></a>
-<a href="#Haqqimizda"> <ul> Haqqimizda</ul></a>
-<a href="#Elaqe"> <ul> Elaqe</ul></a>
-    </ul>
-</div>
-
-
-</div>
+        <ul class="sidebar">
+            <li class="close" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            
+            <li><a href="#">Menu</a></li>
+            <li><a href="#Haqqimizda">Haqqimizda</a></li>
+            <li><a href="#Elaqe">Elaqe</a></li>
+           
+          </ul>
+          <ul>
+            <li><a href="#"><img src="./assets/SirvansahLogo.png" alt=""></a></li>
+            <li class="hideOnMobile"><a href="#">Menu</a></li>
+            <li class="hideOnMobile"><a href="#Haqqimizda">Haqqimizda</a></li>
+            <li class="hideOnMobile"><a href="#Elaqe">Elaqe</a></li>
+       
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+          </ul>
 
     </nav>
+
+   
 
 
     <section class="header">
@@ -114,5 +114,7 @@
         <p>github:m11jr</p>
     </footer>
     
+
+    <script src="./script/script.js"></script>
 </body>
 </html>
